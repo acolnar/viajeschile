@@ -1,6 +1,19 @@
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     margin: 0;
     padding: 0;
     background-color: black;
     color: white;
+}
+
+.card-img-top{
+    aspect-ratio: 5/4;
+}
+.footer-wrap{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
